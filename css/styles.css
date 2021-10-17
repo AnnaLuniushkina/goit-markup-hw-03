@@ -61,7 +61,7 @@ body {
 	padding-bottom: 94px;
 }
 
-/* ---------------Шапка----------------- */
+/* Шапка */
 
 .header {
 	border-bottom: 1px solid #ececec;
@@ -152,7 +152,7 @@ body {
 	color: var(--accent-color);
 }
 
-/* ----------Герой------------- */
+/* Герой */
 
 .hero {
 	background-color: #2f303a;
@@ -193,7 +193,7 @@ body {
 	margin: 0 auto;
 }
 
-/* ---------Особенности--------------- */
+/* Особенности */
 
 .features-title,
 .projects-title {
@@ -235,7 +235,7 @@ body {
 	margin-left: 30px;
 }
 
-/*---------- Чем мы занимаемся-------------- */
+/* Чем мы занимаемся */
 
 .works {
 	padding-top: 0;
@@ -265,7 +265,7 @@ body {
 	margin-left: 30px;
 }
 
-/*---------- Наша команда ---------------*/
+/* Наша комманда */
 
 .team {
 	background-color: #f5f4fa;
@@ -308,7 +308,7 @@ body {
 	padding-bottom: 30px;
 }
 
-/*---------- Футер----------------- */
+/* Футер */
 
 .footer {
 	background-color: #2f303a;
@@ -361,7 +361,7 @@ body {
 	color: var(--accent-color);
 }
 
-/*--------- Портфолио----------------- */
+/* Портфолио */
 
 .buttons-list {
 	display: flex;
