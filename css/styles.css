@@ -265,7 +265,7 @@ body {
 	margin-left: 30px;
 }
 
-/* Наша комманда */
+/* Наша команда */
 
 .team {
 	background-color: #f5f4fa;
@@ -286,6 +286,11 @@ body {
 	margin-left: 30px;
 }
 
+.team-block {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
 .team-titles {
 	font-weight: 500;
 	font-size: 16px;
@@ -294,7 +299,6 @@ body {
 	color: var(--primary-title-color);
 	text-align: center;
 
-	margin-top: 30px;
 	margin-bottom: 10px;
 }
 
@@ -304,20 +308,18 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--text-color);
 	text-align: center;
-
-	padding-bottom: 30px;
 }
 
 /* Футер */
 
 .footer {
 	background-color: #2f303a;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .footer-container {
 	display: block;
-	padding-top: 60px;
-	padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -366,8 +368,7 @@ body {
 .buttons-list {
 	display: flex;
 	margin-bottom: 50px;
-	padding-left: 280px;
-	padding-right: 280px;
+	justify-content: center;
 }
 
 .buttons-items:not(:last-child) {
@@ -386,6 +387,7 @@ body {
 	border-style: none;
 
 	padding: 6px 22px;
+	min-width: 73px;
 	height: 38px;
 	border-radius: 4px;
 }
@@ -394,26 +396,6 @@ body {
 .buttons:focus {
 	color: #ffffff;
 	background-color: #2196f3;
-}
-
-.first {
-	min-width: 73px;
-}
-
-.second {
-	min-width: 129px;
-}
-
-.third {
-	min-width: 145px;
-}
-
-.fourth {
-	min-width: 103px;
-}
-
-.fifth {
-	min-width: 130px;
 }
 
 .list-titles {
